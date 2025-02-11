@@ -1,0 +1,29 @@
+/* Assignment 1 */
+
+.parent .child .title{
+    color: red;
+}
+
+.parent .title{
+    color: blue;
+}
+
+.parent p, .title{
+    color: green;
+}
+
+
+/* Assignment 2 */
+
+.main div {
+    width: fit-content;
+    max-width: 400px;
+    background-color: #a52a2a;
+    padding: 10px;
+    margin: 20px;
+    font-size: 22px;
+    text-transform: capitalize;
+    height: 15px;
+    overflow: hidden;
+}
+

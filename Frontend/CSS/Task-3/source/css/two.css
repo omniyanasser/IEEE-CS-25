@@ -1,0 +1,52 @@
+/*  Assignment 1 two.html */
+
+div{
+    width: 500px;
+    padding: 20px;
+    margin: 20px auto;
+    color: white;
+}
+
+.assign-1-shape-1{
+ background-color: #8a2be2;
+ background-color: blueviolet;
+ background-color: rgb(138, 43, 226);
+ background-color: hsl(271, 76%, 53%);
+}
+
+.assign-1-shape-2{
+ background-color: rgb(138, 43, 226, 0.5);
+}
+
+.assign-1-shape-3{
+    background-color: rgb(138, 43, 226, 0.1);
+}
+
+
+/*  Assignment 2 two.html */
+
+.assign-2-shape-1, .assign-2-shape-2, .assign-2-shape-3, .assign-2-shape-4{
+    width: 400px;
+    height: 400px;
+    background-color: rgba(128, 128, 128, 0.41);
+
+}
+
+.assign-2-shape-1{
+    background-image: url(../../images/css-assignment-5-8.png);
+    background-repeat: no-repeat;
+}
+
+.assign-2-shape-2{
+    background-image: url(../../images/css-assignment-5-8.png);
+    background-repeat: repeat-y;
+}
+
+.assign-2-shape-3{
+    background-image: url(../../images/css-assignment-5-8.png);
+    background-repeat: repeat-x;
+}
+
+.assign-2-shape-4{
+    background-image: url(../../images/css-assignment-5-8.png);
+}
