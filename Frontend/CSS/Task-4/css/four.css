@@ -1,0 +1,129 @@
+/* Assignment 1 */
+
+.one div{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+.green{
+background-color: #009688;
+z-index: 2;
+left: 30px;
+top: 30px;
+}
+
+.red{
+background-color: red;
+z-index: 3;
+left: 40px;
+top: 40px;
+}
+
+.blue{
+background-color: blue;
+z-index: 1;
+left: 20px;
+top: 20px;
+}
+
+.black{
+background-color: black;
+z-index: -1;
+left: 20px;
+top: 30px;
+}
+
+/* Assignment 2 */
+hr{
+    margin-top: 150px;
+}
+
+.two div{
+    width: 400px;
+    background-color: #eee;
+    margin: 20px auto;
+    padding: 20px;
+    font-family: sans-serif;
+    text-align: center;
+    line-height: 1.6;
+    border-top: 3px solid #f44336;
+    border-right: 3px solid #2196f3;
+    border-bottom: 3px solid #f44336;
+    border-left: 3px solid #2196f3;
+    position: relative;
+}
+
+.top-left {
+    position: absolute;
+    background-color: #2196f3;
+    padding: 5px 10px;
+    border-right: 3px solid #f44336;
+    top: -15px;
+    left: -15px;
+}
+
+.bottom-left {
+    position: absolute;
+    background-color: #2196f3;
+    padding: 5px 10px;
+    border-right: 3px solid #f44336;
+    bottom: -15px;
+    left: -15px;
+}
+
+.top-right{
+    position: absolute;
+    background-color: #2196f3;
+    padding: 5px 10px;
+    border-left: 3px solid #f44336;
+    top: -15px;
+    right: -15px;
+} 
+
+.bottom-right{
+    position: absolute;
+    background-color: #2196f3;
+    padding: 5px 10px;
+    border-left: 3px solid #f44336;
+    bottom: -15px;
+    right: -15px;
+}
+
+/* Assignment 4 */
+
+table {
+    width: 80%;
+    margin: auto;
+    
+}
+
+caption{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+table button {
+    border: none;
+    padding: 8px 10px;
+    border-radius: 7px;
+}
+
+.view{
+    background-color: #2196f3;
+   
+}
+
+.del{
+    background-color: #e92269;
+}
+
+table thead th{
+    background-color: #404040;
+    color: white;
+    padding: 15px;
+}
+
+table tbody td{
+    background-color: #eeeeee;
+    text-align: center;
+}

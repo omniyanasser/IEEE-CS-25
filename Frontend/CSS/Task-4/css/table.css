@@ -1,0 +1,37 @@
+table {
+    width: 80%;
+    margin: auto;
+    
+}
+
+
+table button {
+    border: none;
+    padding: 8px 10px;
+    border-radius: 7px;
+}
+
+
+
+.hold{
+    background-color: #e92222;
+    color: white;
+}
+
+.Progress{
+    background-color: rgba(28, 175, 12, 0.706);
+    color: white;
+}
+
+.Open{
+    background-color: yellow;
+}
+
+.back{
+    background-color: #eeeeee;
+}
+
+table tbody td{   
+    text-align: center;
+    padding: 10px ;
+}

@@ -1,0 +1,45 @@
+/* Assignment 1 */
+
+.Paragraph1, .Paragraph2{
+    width: 500px;
+    height: 100px;
+    margin: 20px;
+    padding: 20px;
+    border: 5px solid orange;
+    text-align: center;
+
+}
+
+.Paragraph2 {
+    border: 5px solid #009688;
+}
+
+.Paragraph1 p , .Paragraph2 p{
+ background-color: gainsboro;
+ font-family: sans-serif;
+ padding: inherit;
+ border: inherit;
+ 
+}
+
+/* Assignment 2 */
+
+p {
+    text-transform: capitalize;
+}
+
+.one{
+    font-weight: 300;
+    font-style: italic;
+    font-family: "Open Sans", serif;
+}
+
+.two{
+    font-weight: 700;
+    font-family: "Cairo", serif;
+}
+
+.three{
+    font-weight: 400;
+    font-family: "Jomhuria", serif;
+}

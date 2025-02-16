@@ -1,0 +1,29 @@
+/*Assignment 1  */
+.one h3{
+    text-transform: capitalize;
+    text-shadow: .5px .5px 0 red, 1px 1px 0 blue, 1.5px 1.5px 0 rgb(168, 3, 160);
+    background-color: #f9f9f9;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+}
+
+
+/*Assignment 4  */ 
+.four{
+    width: 300px;
+    height: 100px;
+    background-color:#009688 ;
+    border-bottom: 10px solid #00514a;
+
+}
+.four a{
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    display: block;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    padding: 30px;
+}
