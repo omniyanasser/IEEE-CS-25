@@ -1,0 +1,129 @@
+/* Assignment 1 */
+
+.one div{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: -15px 0px 0px #2196f3, 15px 0px 0px #ff5722;
+    margin: 30px;
+    background-color: #eeeeee;
+    color: #ff5722;
+    font-family: sans-serif;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.parent {
+    width: 600px;
+    height: 300px;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #eeeeee;
+    padding: 20px;
+}
+
+.parent div{
+    width: calc(65% /4);
+    height: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff5722;
+    padding: 10px;
+}
+
+.parent{
+    justify-content: space-between;
+}
+
+.parent .one{
+    background-color: #ff9800;
+    order: 2;
+}
+
+.parent .two{
+    background-color: #795548;
+    order: 4;
+}
+
+.parent .three{
+    background-color: #673ab7;
+    order: 1;
+    align-self: flex-end;
+}
+
+.parent .four{
+    background-color: #8bc34a;
+    order: 3;
+    align-self: flex-end;
+}
+
+/* Assignment 6 */
+
+:root {
+    --mainColor: #eee;
+    --secColor: #ddd;
+    --mainPadding: 10px;
+    --mainMargin:10px;
+    --font: sans-serif
+}
+
+.page {
+    background-color: var(--mainColor);
+    font-family: var(--font);
+    padding: var(--mainPadding);
+    margin: var(--mainMargin);
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    background-color: var(--secColor);
+    padding: var(--mainPadding) 20px;
+    margin: var(--mainPadding);
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 100%;
+    background-color: var(--secColor);
+    padding: var(--mainPadding);
+    margin: var(--mainMargin);
+}
+
+.links li{
+    list-style: none;
+    margin-right: 7px;
+}
+
+.main-area{
+    display: flex;
+}
+
+.content, .sidebar {
+  width: 70%;
+  height: 200px;
+  background-color: var(--secColor);
+  padding: var(--mainPadding);
+  margin: var(--mainMargin);
+}
+
+.sidebar{
+    width: 20%;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--secColor);
+    padding: var(--mainPadding);
+    margin: var(--mainMargin);
+}

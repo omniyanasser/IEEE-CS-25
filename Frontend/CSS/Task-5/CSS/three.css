@@ -1,0 +1,46 @@
+/* Assignment 1 */
+
+.one .parent{
+    width: 400px;
+    height: 300px;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 20px;
+    margin: 20px auto;
+    background-color: #eee;
+    transition-duration: .5;
+}
+
+.one .parent:hover{
+    margin-top: 50px;
+}
+
+
+ .one .child{
+   padding: 20px;
+    background-color: #b0b0b0e7;
+    margin-top: 10px;
+    transition-duration: .5;
+    transition-delay: .5;
+} 
+
+.one .parent:hover .child{
+    margin-top: 30px;
+  
+}
+
+
+/* Assignment 3 */
+
+:root {
+    --mainColor: #009688;
+    --mainPadding: 10px;
+  }
+  
+.three  div {
+    border: 5px solid var(--mainColor, black);
+    padding: var(--mainPadding);
+    margin: 10px;
+    color: var(--mainColor , red);
+    font-family: sans-serif;
+  }
