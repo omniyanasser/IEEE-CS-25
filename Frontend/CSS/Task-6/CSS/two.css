@@ -1,0 +1,142 @@
+/* Assignment 2 */
+
+.layout{
+    height: 100vh;
+    margin: 30px;
+    display: grid;
+    grid-template-columns: repeat(9,1fr);
+    grid-template-rows: 50px 1fr 50px;
+    grid-template-areas: "head head head head head head head head head"
+                         "sec sec sec sec sec sec sec side side"
+                         "foot foot foot foot foot foot foot foot foot";
+    
+
+
+}
+
+header{
+    grid-area: head;
+    background-color: #2196f3;
+    color: white;
+}
+
+header::before{
+    content: "Header";
+    display: inline-block;
+    padding: 10px;
+    font-family: sans-serif;
+}
+
+section{
+    grid-area: sec;
+    background-color: #f44336;
+    color: white;
+}
+
+section::before{
+    content: "Section";
+    display: inline-block;
+    padding: 20px;
+    font-family: sans-serif;
+}
+
+aside{
+    grid-area: side;
+    background-color: gray;
+    color: white;
+}
+
+aside::before{
+    content: "Aside";
+    display: inline-block;
+    padding: 20px;
+    font-family: sans-serif;
+}
+
+footer{
+    grid-area: foot;
+    background-color: #7dbb80f2;
+    color: white;
+} 
+
+footer::before{
+    content: "Footer";
+    display: inline-block;
+    padding: 10px;
+    font-family: sans-serif;
+}
+
+/* Assignment 4 */
+
+.ass-four .grid {
+    background-color: #ddd;
+    padding: 20px;
+    width: 800px;
+    height: 400px;
+    display: grid;
+    margin: 20px auto;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px 10px;
+  }
+
+.ass-four .grid div{
+    background-color: #2196f3;
+    color: white;
+    font-weight: bold;
+    font-size: 32px;
+    text-align: center;
+    padding: 10px;
+}
+
+.grid .one{
+    grid-area: 6 / 1 / 6 /7;
+    
+}
+
+.grid .two{
+    grid-column: 1/ span 4;
+}
+
+.grid .three{
+    grid-column: 5/ span 2;
+}
+
+.grid .four, .grid .six, .grid .seven{
+    grid-column: 1/ span 2;
+}
+
+.grid .five{
+    grid-column: 3/ span 4;
+    grid-row: 3 / span 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid .eight{
+    grid-area: 1 / 1 / 1 /7;
+    
+}
+
+/* Assignment 5 */
+
+.ass-five .grid {
+    background-color: #ddd;
+    padding: 20px;
+    width: 800px;
+    height: 400px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    align-content: space-between;
+   
+  }
+
+.ass-five .grid div{
+    background-color: #ea1f64;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+ 
+  }

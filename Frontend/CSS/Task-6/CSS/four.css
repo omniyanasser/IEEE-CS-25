@@ -1,0 +1,87 @@
+/* Assignment 2 */
+
+.two h1{
+    width: 150px;
+    color: white;
+    background-color: #009688;
+    text-align: center;
+    padding: 20px;
+    margin: 30px auto;
+    position: relative;
+      
+}
+
+.two h1::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -14px;
+    background-color: #009688;
+    width: 150px;
+    height: 100%;
+    z-index: -1;
+    transform: skewX(20deg);
+}
+
+.two h1::before{
+    content: "";
+    position: absolute;
+    background-color: #009688;
+    width: 25px;
+    height: 75px;
+    top: 0;
+    left: -55px;
+    transform: skewX(20deg);
+}
+
+/* Assignment 5 */
+
+.parent{
+    width: 200px;
+    margin: 20px auto;
+    perspective: 400px;
+}
+
+.box, .box-x{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    transform-style: preserve-3d;
+    transition: transform .5s;
+
+
+}
+
+.box:hover{
+    transform: rotateY(-180deg);
+}
+
+.box-x:hover{
+    transform: rotatex(180deg);
+}
+
+.parent .box .front, .parent .box .back, .parent .box-x .front-x, 
+.parent .box-x .back-x{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 32px;
+    background-color: #fa3664;
+    backface-visibility: hidden;
+}
+
+
+.parent .box .back{
+    background-color: #2296f4;
+    transform: rotateY(180deg);
+
+}
+
+.parent .box-x .back-x{
+    background-color: #2296f4;
+    transform: rotatex(180deg);
+}

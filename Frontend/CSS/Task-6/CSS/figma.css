@@ -1,0 +1,155 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Poppins;
+}
+
+.parent {
+    display: grid;
+    background-color: #F8F8F8;
+    height: 600px;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    margin: 10px auto;
+    max-width: 80vw;
+}
+
+.parent img {
+    grid-column: 5 / 9;
+    grid-row: 1 / 6;
+    width: 100%;
+    height: 100%;
+
+}
+
+.parent .leftside {
+    grid-column: 2 / 5;
+    grid-row: 2 / 5;
+
+}
+
+.parent .leftside .welcome {
+    font-size: 34px;
+    letter-spacing: 1.2px;
+    color: #030303;
+
+}
+
+.parent .leftside .details {
+    font-size: 14px;
+    margin-top: -10px;
+    color: #636364;
+    margin-bottom: 27px;
+
+}
+
+
+
+form label {
+    display: inline-block;
+    font-size: 14px;
+    color: #181818;
+}
+
+form input[type="email"],
+form input[type="password"] {
+    display: block;
+    margin-bottom: 20px;
+
+    width: 313.96722412109375px;
+    height: 41.31147384643555px;
+
+    border-radius: 12px;
+    border: 1px solid #00000040;
+
+    box-shadow: 0px 4px 10px 0px #00000040;
+
+}
+
+form input[type="email"]:focus,form input[type="password"] {
+    outline: none;
+}
+
+form input::placeholder {
+    font-weight: 200;
+    font-size: 14px;
+    padding-left: 10px;
+    color: #636364cf;
+
+}
+
+form input[type="checkbox"] {
+    display: inline-block;
+
+    width: 14.459016799926758px;
+    height: 13.426229476928711px;
+    border-radius: 4px;
+    border: 1px solid #00000040;
+
+}
+
+form a {
+    text-decoration: none;
+    color: #181818;
+    font-size: 12px;
+    margin-left: 80px;
+}
+
+form .sign {
+    width: 313.96722412109375px;
+    height: 41.31147384643555px;
+    border-radius: 12px;
+    background-color: #EA454C;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    color: #FFFFFF;
+    box-shadow: 0px 4px 10px 0px #E9444B40;
+
+
+    margin: 15px 0;
+    border: none;
+
+}
+
+form img {
+    width: 28.918033599853516px !important;
+    height: 28.918033599853516px !important;
+    margin-right: 5px;
+}
+
+form .google {
+    width: 313.96722412109375px;
+    height: 41.31147384643555px;
+    border-radius: 12px;
+    border: 1px solid #00000040;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    color: #000000;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;;
+
+}
+
+.leftside .account {
+    width: 313.96722412109375px;
+
+    font-weight: 500;
+    font-size: 10px;
+    margin-top: 13px;
+    text-align: center;
+
+    color: #636364;
+
+}
+
+.leftside .account span{
+    color: #EA454C;
+}
