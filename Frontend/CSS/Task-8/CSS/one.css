@@ -1,0 +1,139 @@
+/* Assignment 1 */
+
+.one div{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* transform: translate(-50%,-50%); */
+    border-radius: 50%;
+    border: 7px solid #e40d57;
+    border-left-color: transparent;
+
+    animation: spin 1s linear infinite;
+}
+
+.one div::before{
+    content: "";
+    position: absolute;
+    width: 67px;
+    height: 67px;
+    border-radius: 50%;
+    border: 7px solid #1c90ff;
+    border-right-color: transparent;
+    animation: spin 1s linear infinite;
+}
+
+.one div::after{
+    content: "";
+    position: absolute;
+    width: 83px;
+    height: 83px;
+    border-radius: 50%;
+    border: 7px solid #fc9e00;
+    border-top-color: transparent;
+    animation: spin 1s linear infinite;
+   
+}
+
+@keyframes spin{
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(1turn);
+  }
+
+}
+
+.one div:hover {
+    animation-play-state: paused;
+}
+
+.one div:hover::before{
+    animation-play-state: paused;
+}
+
+.one div:hover::after{
+    animation-play-state: paused;
+}
+
+
+/* Assignment 2 */
+
+hr{
+    margin-top: 400px;
+}
+
+
+.two div{
+    margin-top: 400px;
+    margin-bottom: 200px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* transform: translate(-50%,-50%); */
+    border-radius: 50%;
+    border: 7px solid #1c90ff;
+    border-left-color: transparent;
+
+    animation: spin 1s linear infinite;
+    animation-play-state: paused;
+}
+
+.two div::before{
+    content: "";
+    position: absolute;
+    width: 67px;
+    height: 67px;
+    border-radius: 50%;
+    border: 7px solid #fc9e00;
+    border-left-color: transparent;
+    animation: spin 1.5s linear infinite;
+    animation-play-state: paused;
+}
+
+.two div::after{
+    content: "";
+    position: absolute;
+    width: 83px;
+    height: 83px;
+    border-radius: 50%;
+    border: 7px solid black;
+    border-left-color: transparent;
+    animation: spin 1.5s linear infinite;
+    animation-play-state: paused;
+   
+}
+
+@keyframes spin{
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(1turn);
+  }
+
+}
+
+.two div:hover {
+    animation-play-state: running;
+}
+
+.two div:hover::before{
+    animation-play-state: running;
+}
+
+.two div:hover::after{
+    animation-play-state: running;
+}
+
