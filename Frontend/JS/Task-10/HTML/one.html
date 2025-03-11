@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+ <!-- Assignment 1 -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Learn JavaScript</title>
+    <script>
+      // Code One
+      /*
+      This code is not vaild
+      Because it is before the html element
+      whose id is "el".
+      */
+      document.getElementById("el").style.color = "red";
+    </script>
+    <script>
+      // Code Two
+      /*
+      This code is vaild 
+       window.onload function 
+       which makes the JS code not work until the HTML code is fully loaded
+      */
+        window.onload = function () {
+          document.getElementById("el").style.color = "red";
+        };
+    </script>
+  </head>
+  <body>
+    <h1 id="el">Page Title</h1>
+    <script>
+      // Code Three
+      /*
+      This code is vaild
+      Because it is after the html element
+      whose id is "el".
+      */
+       document.getElementById("el").style.color = "red";
+    </script>
+  </body>
+</html>
+
+
+ <!-- Assignment 2 -->
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ </head>
+ <body>
+    <!-- <h1 id="ass-2">Elzero</h1> -->
+    <script src="../JS/one.js"></script>
+    
+ </body>
+ </html>
