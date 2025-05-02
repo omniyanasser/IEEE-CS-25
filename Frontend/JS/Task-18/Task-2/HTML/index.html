@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/style.css" />
+  </head>
+  <body>
+    <div class="controls">
+      <label for="datetime">Choose target date and time:</label>
+      <input type="datetime-local" id="datetime" />
+      <button id="startBtn">Start Countdown</button>
+    </div>
+
+    <div class="parent">
+      <div class="time-box">
+        <p>Days</p>
+        <span class="days">00</span>
+      </div>
+      <div class="separator">:</div>
+      <div class="time-box">
+        <p>Hours</p>
+        <span class="hours">00</span>
+      </div>
+      <div class="separator">:</div>
+      <div class="time-box">
+        <p>Minutes</p>
+        <span class="minutes">00</span>
+      </div>
+      <div class="separator">:</div>
+      <div class="time-box">
+        <p>Seconds</p>
+        <span class="seconds">00</span>
+      </div>
+    </div>
+
+    <p class="timeout">Time's up!</p>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="../JS/main.js"></script>
+  </body>
+</html>
